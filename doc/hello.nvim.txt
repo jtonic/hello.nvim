@@ -3,18 +3,17 @@
 ================================================================================
 Table of Contents                                 *hello.nvim-table-of-contents*
 
-1. Introduction........................................|hello.nvim-introduction|
-2. Installation........................................|hello.nvim-installation|
-3. Usage......................................................|hello.nvim-usage|
+1. Introduction                                        |hello.nvim-introduction|
+2. Installation                                        |hello.nvim-installation|
+3. Usage                                                      |hello.nvim-usage|
 
 ================================================================================
-
-1. Introduction........................................*hello.nvim-introduction*
+1. Introduction                                        *hello.nvim-introduction*
 
 Hello, world! plugin is a simple plugin that prints "Hello, world!" as a notification
 
 
-2. Installation........................................*hello.nvim-installation*
+2. Installation                                        *hello.nvim-installation*
 
 To install the plugin using lazy.vim you can add the following line to your init.vim file: 
 
@@ -24,7 +23,7 @@ To install the plugin using lazy.vim you can add the following line to your init
   }
 < 
 
-3. Usage......................................................*hello.nvim-usage*
+3. Usage                                                      *hello.nvim-usage*
 
 COMMANDS:
 
