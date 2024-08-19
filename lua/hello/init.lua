@@ -5,6 +5,7 @@ function M.hello()
 end
 
 function M.setup()
+	print("From Setup!!!")
 	vim.api.nvim_create_user_command("Hello", M.hello, {})
 end
 
