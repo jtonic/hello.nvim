@@ -1,12 +1,15 @@
 local M = {}
 
-function M.hello()
-	vim.notify("Hello, Tony!!!", vim.log.levels.OFF, { title = "Message" })
+function M.hello(title)
+	vim.notify("Hello, Tony!", vim.log.levels.OFF, { title = title })
 end
 
-function M.setup()
-	print("From Setup!!!")
-	vim.api.nvim_create_user_command("Hello", M.hello, {})
+function M.setup(config)
+	config = config or {}
+	local title = config.title or "Message"
+	vim.api.nvim_create_user_command("Hello", function()
+		M.hello(title)
+	end, {})
 end
 
 return M
